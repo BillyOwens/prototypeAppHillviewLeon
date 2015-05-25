@@ -112,7 +112,7 @@ $('#page5AJAXButton').bind("click", function(){
 	//http://www.jquery4u.com/demos/ajax/
 	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 {
-  tags:"science",
+  tags:"family guy",
   tagmode: "any",
   format: "json"
 },
